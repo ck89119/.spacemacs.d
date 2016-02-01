@@ -2,8 +2,8 @@
 
 ## install
 
-    curl -o - https://raw.github.com/ck89119/.vim/master/auto-install.sh | sh
+    curl -o - https://raw.github.com/ck89119/.spacemacs.d/master/install.sh | sh
 
 or
 
-    wget -O - https://raw.github.com/ck89119/.vim/master/auto-install.sh | sh
+    wget -O - https://raw.github.com/ck89119/.spacemacs.d/master/install.sh | sh
