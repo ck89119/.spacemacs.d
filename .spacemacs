@@ -23,12 +23,13 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     auto-completion
+     (auto-completion :variables
+                      auto-completion-enable-snippets-in-popup t)
      ;; better-defaults
-     emacs-lisp
+     ;; emacs-lisp
      git
      markdown
-     org
+     ;; org
      osx
      ;; (shell :variables
      ;;        shell-default-height 30
@@ -201,8 +202,7 @@ user code."
 This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
   (global-linum-mode)
-  ;; (global-auto-complete-mode)
-  ;; (spacemacs/toggle-syntax-checking-on )
+  ;; (global-company-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
